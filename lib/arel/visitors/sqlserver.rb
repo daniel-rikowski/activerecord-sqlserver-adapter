@@ -8,6 +8,13 @@ module Arel
       FETCH0 = " FETCH FIRST (SELECT 0) "
       ROWS_ONLY = " ROWS ONLY"
 
+      SPACE = ' '
+      COMMA = ', '
+      GROUP_BY = ' GROUP BY '
+      ORDER_BY = ' ORDER BY '
+      WINDOW = ' WINDOW '
+      AND = ' AND '
+      DISTINCT = 'DISTINCT'
 
       private
 
